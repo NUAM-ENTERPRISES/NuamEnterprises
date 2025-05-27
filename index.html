@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Animated Header with Carousel</title>
+  <link rel="stylesheet" href="indexx.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <body>
+  <header>
+    <div class="logo">
+  <img src="Logo.png" alt="Logo" />
+</div>
+
+
+    <nav id="nav-menu">
+      <a href="#Home">Home</a>
+      <a href="#A">About Us</a>
+      <a href="#S">Services</a>
+      <a href="#contact" id="cont">Contact</a>
+    </nav>
+
+    <button class="cta-btn desktop-only" id="">Contact us</button>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+<!-- Hero Section -->
+<section class="hero-section" id="Home">
+  <!-- Hero Content -->
+  <div class="hero-content">
+    <h2>NUAM shapes the future across industries — from construction and coding to filmmaking and digital innovation.</h2>
+   <button class="cta-btn1">Explore Us <span class="arrow"><h2>-></h2></span></button>
+  </div>
+
+  <!-- Fullscreen Carousel -->
+  <div class="carousel-container">
+    <div class="carousel-slide" id="carousel-slide">
+      <img src="nu.png" alt="Slide 1" />
+      <img src="imageee1.png" alt="Slide 2" />
+      <img src="imggg2.png" alt="Slide 3" />
+    </div>
+  </div>
+</section>
+
+  
+<section class="about-section" id="A">
+  <div class="matrix-background"></div>
+
+  <div class="content-container">
+    <div class="title-group">
+      <h1 class="about-title">
+        <span class="letter">A</span>
+        <span class="letter">B</span>
+        <span class="letter">O</span>
+        <span class="letter">U</span>
+        <span class="letter">T</span>
+        <span class="letter">&nbsp;</span>
+        <span class="letter">U</span>
+        <span class="letter">S</span>
+      </h1>
+      <div class="underline"></div>
+    </div>
+
+    <div class="nuam-container">
+      <div class="nuam-letter n">N</div>
+      <div class="nuam-letter u">U</div>
+      <div class="nuam-letter a">A</div>
+      <div class="nuam-letter m">M</div>
+    </div>
+
+    <p class="description">
+    NUAM is a multi-disciplinary powerhouse that shapes futures across industries — from building skyscrapers to crafting code, from telling cinematic stories to developing digital worlds.  
+    </p>
+
+    <button class="glow-button" id="glow-button1">
+      <span>Discover</span>
+      <div class="glow" id="glow-button1"></div>
+    </button>
+  </div>
+</section>
+
+ <section class="services-section">
+  <div class="container">
+    <div class="services-header" id="S">
+      <h2>Our Core Services</h2>
+      <p class="subtitle">Empowering your business with cutting-edge solutions</p>
+      <div class="divider"></div>
+    </div>
+
+    <div class="services-container">
+      <div class="service-card">
+        <div class="card-icon">💻</div>
+        <h3>Software Development</h3>
+        <p>We build custom web, mobile, and desktop applications using React, Node.js, and Python tailored for your business needs.</p>
+        <button class="cta-btn">
+          Learn More
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      
+      <div class="service-card">
+        <div class="card-icon">📈</div>
+        <h3>Digital Marketing</h3>
+        <p>From SEO to social media, we drive digital growth using tools like Google Ads, Meta Business Suite, and analytics platforms.</p>
+        <button class="cta-btn">
+          Learn More
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <section class="contact-section">
+    <div class="contact-header">
+      <h2>Contact Us</h2>
+      <p>Let's discuss how we can help your business grow.</p>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-details">
+        <h3>Get in Touch</h3>
+        <p><strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@company.com">info@company.com</a></p>
+        <div class="map">
+          <iframe src="https://maps.google.com/maps?q=Times%20Square,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="tel" placeholder="Your Phone" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+   <!-- Footer -->
+ <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-box">
+      <h3 class="footer-heading">Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="#Home" class="underline-hover">Home</a></li>
+        <li><a href="#About" class="underline-hover">About Us</a></li>
+        <li><a href="#Services" class="underline-hover">Services</a></li>
+        <li><a href="#Contact" class="underline-hover">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h3 class="footer-heading">Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f bubble-hover"></i></a>
+        <a href="#"><i class="fab fa-instagram bubble-hover"></i></a>
+        <a href="#"><i class="fab fa-twitter bubble-hover"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in bubble-hover"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 NUAM Enterprises. All rights reserved.</p>
+  </div>
+</footer>
+  <script>
+  // Select the nav menu
+const navMenu = document.getElementById('nav-menu');
+
+// Create a mobile Contact Us button dynamically
+const mobileContactBtn = document.createElement('button');
+mobileContactBtn.classList.add('cta-btn', 'mobile-only');
+mobileContactBtn.textContent = 'Contact us';
+
+// Append button inside nav menu
+navMenu.appendChild(mobileContactBtn);
+
+// Your existing toggle code (make sure this is there)
+const menuToggle = document.getElementById('menu-toggle');
+menuToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+  menuToggle.classList.toggle('active');
+});
+
+
+  // ✅ Fix: define 'slide' first
+  const slide = document.getElementById('carousel-slide');
+  const images = slide.querySelectorAll('img');
+  let index = 0;
+
+  function nextSlide() {
+    index++;
+    if (index >= images.length) {
+      index = 0;
+    }
+    slide.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  setInterval(nextSlide, 5000); // Change every 4 seconds
+
+   const options = { threshold: 0.2 };
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, options);
+
+  // Watch elements
+  document.querySelectorAll('.watch').forEach((el, index) => {
+    el.style.animationDelay = `${index * 0.3}s`; // delay 0.3s between each
+    observer.observe(el);
+  });
+
+   const cards = document.querySelectorAll('.service-card');
+
+const serviceObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate');
+    } else {
+      entry.target.classList.remove('animate');
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+cards.forEach(card => {
+  serviceObserver.observe(card);
+});
+const sections = document.querySelectorAll('.contact-details, .contact-form');
+
+const contactObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    } else {
+      entry.target.classList.remove('visible');
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+sections.forEach(section => {
+  contactObserver.observe(section);
+});
+
+const footerSections = document.querySelectorAll('.animate-on-scroll');
+
+const footerObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+footerSections.forEach(section => {
+  footerObserver.observe(section);
+});
+document.addEventListener('DOMContentLoaded', () => {
+  // Animate letters on load
+  const letters = document.querySelectorAll('.letter');
+  const nuamLetters = document.querySelectorAll('.nuam-letter');
+  const desc = document.querySelector('.description');
+  const button = document.querySelector('.glow-button');
+  const underline = document.querySelector('.underline');
+
+  // Stagger animation for ABOUT US
+  letters.forEach((letter, index) => {
+    setTimeout(() => {
+      letter.style.opacity = '1';
+      letter.style.transform = 'translateY(0)';
+      letter.style.filter = 'blur(0)';
+    }, 100 * index);
+  });
+
+  // Animate underline after text
+  setTimeout(() => {
+    underline.style.width = '100%';
+    underline.style.transition = 'width 1s ease-out';
+  }, 100 * letters.length + 300);
+
+  // Animate NUAM letters
+  setTimeout(() => {
+    nuamLetters.forEach((letter, index) => {
+      setTimeout(() => {
+        letter.style.opacity = '1';
+        letter.style.transform = 'scale(1)';
+        letter.classList.add('animate');
+      }, 200 * index);
+    });
+  }, 1000);
+
+  // Animate description and button
+  setTimeout(() => {
+    desc.style.opacity = '1';
+    desc.style.transform = 'translateY(0)';
+    button.style.opacity = '1';
+    button.style.transform = 'translateY(0)';
+  }, 2000);
+});
+
+// Add hover effect to NUAM letters
+document.querySelectorAll('.nuam-letter').forEach(letter => {
+  letter.addEventListener('mouseenter', () => {
+    letter.style.transform = 'scale(1.1)';
+    letter.style.boxShadow = '0 0 40px rgba(0, 0, 0, 0.2)';
+  });
+
+  letter.addEventListener('mouseleave', () => {
+    letter.style.transform = 'scale(1)';
+    letter.style.boxShadow = '0 0 30px rgba(0, 0, 0, 0.1)';
+  });
+});
+</script>
+
+
+</body>
+</html>
