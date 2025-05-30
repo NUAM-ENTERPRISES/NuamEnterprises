@@ -866,7 +866,7 @@
   }
 }
 }.footer {
-  background: rgba(255, 255, 255, 0.95);
+  background: white;
   color: #0d2538;
   padding: 40px 20px 20px;
   border-top-left-radius: 20px;
