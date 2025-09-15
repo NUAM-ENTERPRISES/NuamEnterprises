@@ -13,7 +13,8 @@ import Contact from "./Contact/Contact"; // Contact Page
 import Load from "./Components/Load"; // NEW loader import
 import Journey from "./About/Journey";
 import Culture from "./About/Culture";
-
+import Pro from "./Product/Pro";
+import ProductDetail from "./Components/ProductDetails";
 function App() {
   // const [loading, setLoading] = useState(true);
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/about/Journey" element={<Journey />} />
         <Route path="/about/Culture" element={<Culture />} />
         <Route path="/services" element={<Sland />} />
+       <Route path="/product-details" element={<ProductDetail />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

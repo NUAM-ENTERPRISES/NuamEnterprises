@@ -22,6 +22,7 @@ const Culture = () => {
           "Culture eats strategy for breakfast — and we serve both with purpose."
         </blockquote>
         <div className="cta-buttons">
+          <a href="/contact" className="no-underline">
           <motion.button
             className="btn-primary"
             whileHover={{ scale: 1.05, boxShadow: "0 6px 16px rgba(147, 51, 234, 0.4)" }}
@@ -29,6 +30,8 @@ const Culture = () => {
           >
             Join Our Team
           </motion.button>
+          </a>
+          <a href="/contact" className="no-underline">
           <motion.button
             className="btn-secondary"
             whileHover={{ scale: 1.05, boxShadow: "0 6px 16px rgba(147, 51, 234, 0.4)" }}
@@ -36,6 +39,7 @@ const Culture = () => {
           >
             Contact Us
           </motion.button>
+          </a>
         </div>
       </motion.div>
     </section>
