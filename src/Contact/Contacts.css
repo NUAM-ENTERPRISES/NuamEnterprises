@@ -416,6 +416,11 @@
   .info-item:hover {
     transform: translateY(-5px);
   }
+   .contact-section {
+  
+      min-height: 165vh;
+  }
+
 }
 
 @media (max-width: 480px) {
